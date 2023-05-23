@@ -1,9 +1,9 @@
 _id: req_63593c0eda73432aaea6963a79db80c2
 type: Request
 parentId: wrk_eb87f78b8eaf4d0c91a9d953bf12857c
-modified: 1682615604808
+modified: 1684878700196
 created: 1682614952603
-url: http://worldtimeapi.org/api/timezone/Europe/Berlin
+url: http://{{ _.baseUrl }}/api/timezone/Europe/Berlin
 name: Get Time for Berlin
 description: ""
 method: GET
