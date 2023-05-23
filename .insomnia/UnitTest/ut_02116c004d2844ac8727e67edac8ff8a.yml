@@ -1,0 +1,12 @@
+_id: ut_02116c004d2844ac8727e67edac8ff8a
+type: UnitTest
+parentId: uts_454228bf0985440a9f0488441cb1a876
+modified: 1682793295766
+created: 1682615040698
+requestId: req_63593c0eda73432aaea6963a79db80c2
+name: Check Berlin Location
+code: |-
+  const response1 = await insomnia.send();
+  const body = JSON.parse(response1.data);
+
+  expect(body.timezone).to.equal('Europe/Berlin');
